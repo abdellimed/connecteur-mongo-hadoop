@@ -14,5 +14,5 @@ cp mongo-hadoop/build/libs/mongo-hadoop-*.jar /lib/
 cd mongo-hadoop/spark/src/main/python
 python setup.py install
 cd $PROJECT_HOME
-cp mongo-hadoop/spark/src/main/python/pymongo_spark.py lib/
+cp mongo-hadoop/spark/src/main/python/pymongo_spark.py /lib/
 export PYTHONPATH=$PYTHONPATH:$PROJECT_HOME/lib
